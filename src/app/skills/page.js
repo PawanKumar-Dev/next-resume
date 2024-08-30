@@ -6,7 +6,7 @@ const Skills = () => {
   <>
    <section className="bg-slate-700 relative z-10">
     <BgAnimation />
-    <div className="container mx-auto text-white py-5">
+    <div className="container mx-auto text-white py-5 h-[70vh]">
      <h1 className="text-4xl font-semibold text-center py-5">Skills</h1>
 
      <div className="flex justify-around max-md:flex-col py-9 max-md:py-4">
@@ -16,10 +16,9 @@ const Skills = () => {
       <SkillCard skIcon={"/js.png"} skPerCent={"75"} />
       <SkillCard skIcon={"/jquery.svg"} skPerCent={"70"} />
       <SkillCard skIcon={"/react.png"} skPerCent={"60"} />
-
      </div>
 
-     <div className="h-[70vh] flex justify-around max-md:flex-col py-9 max-md:py-3">
+     <div className="flex justify-around max-md:flex-col py-9 max-md:py-3">
       <SkillCard skIcon={"/nextjs.svg"} skPerCent={"65"} />
       <SkillCard skIcon={"/php.png"} skPerCent={"80"} />
       <SkillCard skIcon={"/codeigniter.svg"} skPerCent={"70"} />
