@@ -6,7 +6,7 @@ const Skills = () => {
   <>
    <section className="bg-slate-700 relative z-10">
     <BgAnimation />
-    <div className="container mx-auto text-white py-5 h-[70vh]">
+    <div className="container mx-auto text-white py-5 h-[70vh] max-md:h-full">
      <h1 className="text-4xl font-semibold text-center py-5">Skills</h1>
 
      <div className="flex justify-around max-md:flex-col py-9 max-md:py-4">
