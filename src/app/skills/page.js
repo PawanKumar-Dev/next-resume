@@ -4,7 +4,7 @@ import SkillCard from "../components/SkillCard"
 const Skills = () => {
  return (
   <>
-   <section className="bg-slate-700 relative z-10">
+   <section className="bg-slate-700 relative z-10 h-[70vh]">
     <BgAnimation />
     <div className="container mx-auto text-white py-5">
      <h1 className="text-4xl font-semibold text-center py-5">Skills</h1>
